@@ -10,7 +10,9 @@ const emojiDictionary = {
   "😍": "Enthusiastic feeling of Love",
   "🤩": "Amazing,Exciting",
   "😘": "Love and Affection",
-  "😋": "Yummy Tasty"
+  "😋": "Yummy Tasty",
+  "🤗": "Hugging Face",
+  "😑": "Annoyance"
 };
 
 export default function App() {
@@ -46,6 +48,10 @@ export default function App() {
 
       <div>
         <h4>The meaning is:{meaning}</h4>
+      </div>
+
+      <div>
+        <h5>Emojis we have:</h5>
       </div>
     </div>
   );
